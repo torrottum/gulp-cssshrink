@@ -1,0 +1,35 @@
+{
+  "name": "gulp-cssshrink",
+  "version": "0.1.0",
+  "description": "Run CSS through cssshrink",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/torrottum/cssshrink-gulp"
+  },
+  "keywords": [
+    "gulpplugin",
+    "cssshrink",
+    "css",
+    "minify"
+  ],
+  "author": "Tor Røttum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torrottum/cssshrink-gulp/issues"
+  },
+  "homepage": "https://github.com/torrottum/cssshrink-gulp",
+  "devDependencies": {
+    "event-stream": "^3.1.5",
+    "mocha": "^1.20.1",
+    "vinyl": "^0.2.3"
+  },
+  "dependencies": {
+    "cssshrink": "0.0.3",
+    "gulp-util": "^2.2.18",
+    "through2": "^0.5.1"
+  }
+}
