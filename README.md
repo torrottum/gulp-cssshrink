@@ -11,7 +11,7 @@ var gulp = require('gulp');
 var cssshrink = require('gulp-cssshrink');
 
 gulp.task('default', function() {
-    gulp.src('css/**/.css')
+    gulp.src('css/**/*.css')
         .pipe(cssshrink())
         .pipe(gulp.dest('dist/css/'));
 });
