@@ -1,6 +1,6 @@
 {
   "name": "gulp-cssshrink",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run CSS through cssshrink",
   "main": "index.js",
   "scripts": {
