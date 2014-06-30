@@ -1,4 +1,4 @@
-# gulp-cssshrink
+# gulp-cssshrink [![Build Status](https://travis-ci.org/torrottum/gulp-cssshrink.svg)](https://travis-ci.org/torrottum/gulp-cssshrink)
 
 Shrinks CSS files using [cssshrink](http://cssshrink.com/)
 
