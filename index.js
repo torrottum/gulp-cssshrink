@@ -7,8 +7,8 @@ var PluginError = gutil.PluginError;
 const PLUGIN_NAME = 'gulp-cssshrink';
 
 function cssShrinkIt(css) {
-	css = cssshrink.shrink(css);
-	return new Buffer(css);
+  css = cssshrink.shrink(css);
+  return new Buffer(css);
 }
 
 // Plugin level function(dealing with files)
