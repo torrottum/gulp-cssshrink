@@ -22,7 +22,9 @@ function cssShrink() {
     }
 
     if (file.isBuffer()) {
-      	file.contents = cssShrinkIt(file.contents.toString());
+        if (file.contents.toString().trim() !== '') {
+          file.contents = cssShrinkIt(file.contents.toString());
+        }
     }
 
     // make sure the file goes through the next gulp plugin

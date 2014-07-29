@@ -26,4 +26,26 @@ describe('gulp-cssshrink', function() {
       done();
     });
   });
+
+  describe('with empty file', function() {
+    it('should not return anything or crash', function(done) {
+
+      var fakeFile = new File({
+        contents: new Buffer('')
+      });
+
+      var myCSSShrink = cssshrink();
+      myCSSShrink.write(fakeFile);
+
+      myCSSShrink.once('data', function(file) {
+        assert(file.isBuffer());
+
+        // check if the CSS was shrunken
+        assert.equal(file.contents.toString(), '');
+      });
+
+
+      done();
+    });
+  });
 });
