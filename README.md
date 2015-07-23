@@ -1,4 +1,4 @@
-# gulp-cssshrink [![Build Status](https://travis-ci.org/torrottum/gulp-cssshrink.svg)](https://travis-ci.org/torrottum/gulp-cssshrink)
+# gulp-cssshrink [![Build Status](https://travis-ci.org/torrottum/gulp-cssshrink.svg)](https://travis-ci.org/torrottum/gulp-cssshrink) [![Dependency Status](https://david-dm.org/torrottum/gulp-cssshrink.svg)](https://david-dm.org/torrottum/gulp-cssshrink) [![devDependency Status](https://david-dm.org/torrottum/gulp-cssshrink/dev-status.svg)](https://david-dm.org/torrottum/gulp-cssshrink#info=devDependencies)
 
 Shrinks CSS files using [cssshrink](http://cssshrink.com/)
 
