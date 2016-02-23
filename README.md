@@ -2,6 +2,8 @@
 
 Shrinks CSS files using [cssshrink](http://cssshrink.com/)
 
+**Note: It seems like cssshrink is dead (no commits since 2014-07-07 and 20 open issues). You should probably use something like [postcss](https://github.com/postcss/postcss) instead**
+
 ## Install
 `npm install gulp-cssshrink --save-dev`
 
